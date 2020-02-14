@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/motherLayout">
+
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                      android:orientation="vertical">
+            <TextView android:layout_width="365dp"
+                      android:layout_height="wrap_content"
+                      android:textStyle="bold|italic"
+                      android:textColor="#303F9F"
+                      android:textSize="20sp"
+                      android:text="@string/hello"
+                      android:id="@+id/hello"/>
+            <EditText
+                    android:id="@+id/searchTerm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@android:drawable/editbox_background"
+                    android:singleLine="true"
+                    android:textColor="#000"/>
+            <Switch
+                    android:text="Switch to night view"
+                    android:textStyle="bold|italic"
+                    android:textColor="#303F9F"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textSize="15sp"
+                    android:id="@+id/switch1"/>
+            <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                <TextView
+                        android:text="Which school are you studying?"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" android:id="@+id/textView2" android:layout_weight="1"/>
+                <RadioButton
+                        android:text="@string/cmu"
+                        android:layout_width="129dp"
+                        android:layout_height="wrap_content" android:id="@+id/radioButton2"
+                        android:layout_weight="1"/>
+                <RadioButton
+                        android:text="@string/other"
+                        android:layout_width="128dp"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/radioButton"
+                        android:checked="true"
+                        android:layout_weight="1"/>
+            </RadioGroup>
+            <Button
+                    android:text="@string/submit"
+                    android:id="@+id/submit"
+                    android:layout_width="106dp"
+                    android:layout_height="wrap_content"
+                    android:background="@color/colorAccent"
+            />
+            <TextView
+                    android:text="Latest Tech News..."
+                    android:layout_width="340dp"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:layout_height="wrap_content" android:id="@+id/textView"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

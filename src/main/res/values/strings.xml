@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Too busy to read news? We select top news for you! How many news do you have time to read?</string>
+    <string name="app_name">News for busy students</string>
+    <string name="action_settings">Action</string>
+    <string name="other">Other</string>
+    <string name="cmu">CMU</string>
+    <string name="submit">Submit</string>
+</resources>
